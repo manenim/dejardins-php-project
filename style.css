@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+  background: #f2f2f2;
+}
+.ctm-topbar {
+  background: #383838;
+  color: #fff;
+}
+.mr-auto, .mx-auto {
+  margin-left: auto !important;
+  margin-right: 0 !important;;
+}
+a.nav-link {
+  color: #fff !important;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.ctm-logobar {
+  background: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  height: 70px;
+}
+.ctm-form h2 {
+  font-family: Roboto, sans-serif;
+  color: #00884e;
+  font-weight: 400;
+  font-size: 32px;
+}
+.ctm-form label {
+  color: #383838;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+label.form-check-label {
+  font-weight: 400;
+}
+.ctm-safe a {
+  color: #007944;
+  text-decoration: underline;
+  font-size: 13px;
+  font-family: 'Roboto';
+  margin-left: 20px;
+}
+small#emailHelp {
+  color: #595959;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+input.form-control {
+  background: transparent;
+  border-radius: 0;
+  border: 1px solid #cbcccc;
+  margin-bottom: 20px;
+}
+a.ctm-forgot {
+  color: #007944;
+  text-decoration: underline;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+button.btn.btn-primary {
+  background: #00884e;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 100px;
+  border-color: #00884e;
+}
+.ctm-form-section .col-md-8 {
+  background: #fff;
+}
+footer {
+  background: #292b2f;
+}
+.ctm-footer-links1 ul li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+.ctm-footer-links1 ul {
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.ctm-footer-links1 a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  border-top: 1px solid #3e3e3e;
+}
+.ctm-copyright p {
+  font-size: 12px;
+  line-height: normal;
+  color: #cbcbcb;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.ctm-footer-links1.ctm-new-css a {
+  font-weight: 300;
+  font-size: 11px;
+}
+.ctm-footer-links1.ctm-new-css li {
+  padding: 0px 10px;
+  display: inline-block;
+}
+footer {
+  background: #292b2f;
+  padding: 10px 0px;
+}
+.ctm-button {
+  text-align: center;
+}
+.ctm-link a {
+  color: #007944;
+  text-decoration: underline;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+.ctm-link ul {
+  list-style: none;
+  padding: 0;
+}
+.ctm-bottom {
+  border-top: 1px solid #979797;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+.ctm-right-border {
+  border-right: 1px solid #979797;
+}
+.ctm-form-section .container {
+  margin: 30px auto;
+}
+.col-md-4.ctm-image {
+  background-image: url(images/img-auth-desj.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0px !important;
+}
+.ctm-form-section .col-md-8 {
+  padding: 32px;
+  box-shadow: 0 0 30px 0 rgb(0 0 0 / 10%);
+}
+.ctm-form {
+  max-width: 100%;
+  width: 22rem;
+  margin: 0 auto;
+}
+button.navbar-toggler {
+  border: 1px solid #fff !important;
+}
+@media screen and (max-width: 767px) {
+.ctm-logo img {
+  width: 100%;
+}
+.ctm-right-border {
+  border-right: none;
+  border-bottom: 1px solid #979797;
+  padding-bottom: 20px !important;
+}
+.ctm-bottom {
+  border-top: none;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+}
